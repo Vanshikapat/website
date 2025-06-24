@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanshika Patel | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">Vanshika Patel</div>
+    <div class="toggle-mode">
+      <button id="modeToggle"><i class="fas fa-adjust"></i></button>
+    </div>
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    <nav id="menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <h1>Hi, I'm Vanshika Patel</h1>
+    <p>Web Developer</p>
+    <button onclick="showContact()">Contact Me</button>
+    <button onclick="downloadCV()">Download CV</button>
+    <div id="contactInfo" class="hidden">
+      <p><strong>Name:</strong> Vanshika Patel</p>
+      <p><strong>Email:</strong> vanshikarpatel@gmail.com</p>
+      <p><strong>Location:</strong> Amravati, Maharashtra</p>
+      <p><strong>Phone:</strong> 9730211941</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p><strong>Qualification:</strong> B.E. in Computer Engineering</p>
+    <p><strong>Skills:</strong> HTML, CSS, JavaScript, Python, MySQL, Excel, Power BI</p>
+    <p><strong>Languages Learned:</strong> C, C++, Python, SQL</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Online Examination System</h3>
+        <p>A web-based application to conduct online exams securely with login and result features.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Python, SQL</p>
+        <a href="https://github.com/Vanshikapat/online-exam-system" target="_blank" class="project-link">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Dehazing & De-Smoking AI/ML System</h3>
+        <p>An AI-based tool to remove haze/smoke using CNN and OpenCV, integrated via Flask.</p>
+        <p><strong>Technologies:</strong> Flask, CNN, Python, MySQL, OpenCV, HTML, CSS</p>
+        <a href="https://github.com/Vanshikapat/machine_learning-project" target="_blank" class="project-link">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: vanshikarpatel@gmail.com</p>
+    <p>Location: Amravati, Maharashtra</p>
+    <p>Phone: 9730211941</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/vanshika-patel-819359251" target="_blank">LinkedIn</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Connect with me:</p>
+    <a href="https://github.com/Vanshikapat" target="_blank">GitHub</a> |
+    <a href="https://www.linkedin.com/in/vanshika-patel-819359251" target="_blank">LinkedIn</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
